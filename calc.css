@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://t4.ftcdn.net/jpg/01/27/10/27/360_F_127102793_T3xjCOEUKV5vy3WgNMxpDRnEMSFFHh5b.jpg');
+    background-size: cover; 
+  background-position: center;
+}
+
+.calculator {
+    width: 260px;
+    background: black;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: right;
+    padding: 2px;
+    border: none;
+    outline: none;
+    background:gray;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+    
+}
+.number {
+    background: #4CAF50; 
+    color: white;
+}
+
+.operator {
+    background: #FF9800; 
+    color: white;
+}
+
+.clear {
+    background: red; 
+    color: white;
+}
+
+.equal {
+    background:skyblue; 
+    color:white;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
