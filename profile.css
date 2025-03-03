@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(31, 0, 59);
+    color: black;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color:darkblue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header .tagline {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+
+#about {
+    padding: 50px 0;
+    background-color:rgb(135, 207, 235);
+    text-align: center;
+}
+
+#about img.profile-photo {
+    border-radius: 70%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+
+#skills {
+    padding: 50px 0;
+    background-color:rgb(135, 207, 235));
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+#certificates {
+    padding:50px 0;
+    background-color:rgb(135, 207, 235);
+    text-align: center;
+
+}
+
+#certificates ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cerificates {
+    font-size: 1.2rem;
+    margin:5px 0;
+}
+
+
+#resume {
+    padding: 50px 0;
+    background-color:rgb(135, 207, 235);
+    text-align: center;
+}
+
+#resume a {
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+
+}
+
+#resume a:hover {
+    background-color: #333;
+    color: white;
+}
+
+
+#contact {
+    color:white; 
+    padding: 50px 0;
+    background-color:rgb(135, 207, 235);
+    text-align: center;
+    border: 3px solid white; 
+    border-radius: ; /* Optional: Rounds the corners */
+    margin: 20px;
+}
+
+#contact a {
+    color:black; 
+    text-decoration: none; 
+}
+
+#contact a:hover {
+    color:black;
+}
+
+
+
+footer {
+    padding: 20px 0;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
